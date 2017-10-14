@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 58ddde6a5cd1be842bc92b35dccb3da7
+timeCreated: 1508002162
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: EndFeeler
+    100002: EndFeeler2
+    100004: EndFeeler3
+    100006: EndFeelerA1
+    100008: EndFeelerB2
+    100010: EndHead
+    100012: EndHips
+    100014: EndJaw
+    100016: EndLFeelerA
+    100018: EndLFeelerB
+    100020: EndLFeelerC
+    100022: EndLFingerA2
+    100024: EndLFingerB2
+    100026: EndLHand
+    100028: EndLToe
+    100030: EndLToeA2
+    100032: EndLToeB2
+    100034: EndLToeC2
+    100036: EndRFeelerA
+    100038: EndRFeelerB
+    100040: EndRFeelerC
+    100042: EndRFingerA2
+    100044: EndRFingerB2
+    100046: EndRHand
+    100048: EndRToe
+    100050: EndRToeA2
+    100052: EndRToeB2
+    100054: EndRToeC2
+    100056: EndTail6
+    100058: Feeler
+    100060: Feeler2
+    100062: Feeler3
+    100064: FeelerA1
+    100066: FeelerB2
+    100068: Head
+    100070: Hips
+    100072: Jaw
+    100074: LArm
+    100076: LFeelerA
+    100078: LFeelerB
+    100080: LFeelerC
+    100082: LFingerA1
+    100084: LFingerA2
+    100086: LFingerB1
+    100088: LFingerB2
+    100090: LFoot
+    100092: LHand
+    100094: LLeg
+    100096: LThigh
+    100098: LToe
+    100100: LToeA1
+    100102: LToeA2
+    100104: LToeB1
+    100106: LToeB2
+    100108: LToeC1
+    100110: LToeC2
+    100112: Neck1
+    100114: Neck2
+    100116: Origin
+    100118: pm0738_00
+    100120: pm0738_00_BodyASkin
+    100122: pm0738_00_BodyBSkin
+    100124: RArm
+    100126: RFeelerA
+    100128: RFeelerB
+    100130: RFeelerC
+    100132: RFingerA1
+    100134: RFingerA2
+    100136: RFingerB1
+    100138: RFingerB2
+    100140: RFoot
+    100142: RHand
+    100144: RLeg
+    100146: RThigh
+    100148: RToe
+    100150: RToeA1
+    100152: RToeA2
+    100154: RToeB1
+    100156: RToeB2
+    100158: RToeC1
+    100160: RToeC2
+    100162: Spine
+    100164: Tail1
+    100166: Tail2
+    100168: Tail3
+    100170: Tail4
+    100172: Tail5
+    100174: Tail6
+    100176: Tyrantrum
+    100178: //RootNode
+    100180: Waist
+    400000: EndFeeler
+    400002: EndFeeler2
+    400004: EndFeeler3
+    400006: EndFeelerA1
+    400008: EndFeelerB2
+    400010: EndHead
+    400012: EndHips
+    400014: EndJaw
+    400016: EndLFeelerA
+    400018: EndLFeelerB
+    400020: EndLFeelerC
+    400022: EndLFingerA2
+    400024: EndLFingerB2
+    400026: EndLHand
+    400028: EndLToe
+    400030: EndLToeA2
+    400032: EndLToeB2
+    400034: EndLToeC2
+    400036: EndRFeelerA
+    400038: EndRFeelerB
+    400040: EndRFeelerC
+    400042: EndRFingerA2
+    400044: EndRFingerB2
+    400046: EndRHand
+    400048: EndRToe
+    400050: EndRToeA2
+    400052: EndRToeB2
+    400054: EndRToeC2
+    400056: EndTail6
+    400058: Feeler
+    400060: Feeler2
+    400062: Feeler3
+    400064: FeelerA1
+    400066: FeelerB2
+    400068: Head
+    400070: Hips
+    400072: Jaw
+    400074: LArm
+    400076: LFeelerA
+    400078: LFeelerB
+    400080: LFeelerC
+    400082: LFingerA1
+    400084: LFingerA2
+    400086: LFingerB1
+    400088: LFingerB2
+    400090: LFoot
+    400092: LHand
+    400094: LLeg
+    400096: LThigh
+    400098: LToe
+    400100: LToeA1
+    400102: LToeA2
+    400104: LToeB1
+    400106: LToeB2
+    400108: LToeC1
+    400110: LToeC2
+    400112: Neck1
+    400114: Neck2
+    400116: Origin
+    400118: pm0738_00
+    400120: pm0738_00_BodyASkin
+    400122: pm0738_00_BodyBSkin
+    400124: RArm
+    400126: RFeelerA
+    400128: RFeelerB
+    400130: RFeelerC
+    400132: RFingerA1
+    400134: RFingerA2
+    400136: RFingerB1
+    400138: RFingerB2
+    400140: RFoot
+    400142: RHand
+    400144: RLeg
+    400146: RThigh
+    400148: RToe
+    400150: RToeA1
+    400152: RToeA2
+    400154: RToeB1
+    400156: RToeB2
+    400158: RToeC1
+    400160: RToeC2
+    400162: Spine
+    400164: Tail1
+    400166: Tail2
+    400168: Tail3
+    400170: Tail4
+    400172: Tail5
+    400174: Tail6
+    400176: Tyrantrum
+    400178: //RootNode
+    400180: Waist
+    4300000: Tyrantrum
+    9500000: //RootNode
+    13700000: Tyrantrum
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__163
+    second: {fileID: 2100000, guid: 5c8780ff0f1497f4a9b888c877f964bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__164
+    second: {fileID: 2100000, guid: 651f29c094ef52e429e8a42df7cd4c74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__165
+    second: {fileID: 2100000, guid: 32db4bc3bad037b4fa887f7315b49d50, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

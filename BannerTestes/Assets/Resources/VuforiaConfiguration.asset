@@ -16,8 +16,8 @@ MonoBehaviour:
     ufoLicenseKey: QWRtSHVudi8vLy8vQUFBQUtHWkM3Zi9WREVOSHI1UTIyOFhhak1ORUJIMTN2MWpzdmh3ZVdpUlBWUDFyUGN3YVNremtheW11V2JXemUxQllNRVY4V3o4WkY2UThsYnAvdUpPNlEzUGR5WWhKNjBqc3p0aVEvbFFoOXNJLzFpLytmZjJxWllPejl6V1Z3WW93ZThjR01SVGFqQi9Ma0NTTlhINVcxeXJaRkhkZitZYUp2Wlo3bThtL1FJVEdvaVdUVW5ISkRQY09qYndIWlQvRStqbUh6R3hxbzh5Ly96VXJMM21QTzIzaGJBMmt4dEtaTExSRjROUEZ2TlVselM5emd2T3VaVHJLR2k0cFZlLzIyUmFNajk2NVhjNkpVOXRmT1crNVd4OVlDY3pmUFpRQ2tQWS9QNCtrY0EyVGZWKzllcU1kaElOazNVdGFzKzN1SkhBQVFXZjJJTW5Rbklwb2p6QkppOE5aK0tnTWJFQ1VBR21PMWVJWmdINDY=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 2
+    maxSimultaneousObjectTargets: 2
     useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
@@ -44,13 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - VuforiaMars_Images
-    - VuforiaMars_Object_OT
-    - VuforiaMars_VuMark
+    - BannerARJamboreDemo
     dataSetsToActivate:
-    - VuforiaMars_Images
-    - VuforiaMars_Object_OT
-    - VuforiaMars_VuMark
+    - BannerARJamboreDemo
   videoBackground:
     clippingMode: 0
     numDivisions: 2
