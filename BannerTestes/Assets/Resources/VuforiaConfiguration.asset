@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QWRhOG1MLy8vLy8vQUFBQUtHUnBsc3BYa0VWS3JtcEgwOEh6ZzdvUUVqV2xHdTErbFNMSXI1TVpPRm9yRXo3MURNaytZOTY0alhrSDhZRDNmMkRqZjdLQ2pDbnViS1NJcHF5R3J5bFlNMGNxSDk1RUxqd3dHR1BoNVVpcG1xU1FVUGx3cVZ5a1haYjN1dzhSVVUwK2hMN1M3QXEyZTdRN1RjVndEaGtmdlp0WGx1ME4wTG1wZndmOEJXeEU0cXIrZStMdVZ3WkZSZmJTTmE0OTVZcGNDRXVVZ2NmaThjUDM5dzBTNEhTdDRyQ3E3WWd3ZndHMHB0bjlEckdFU2JhUW5aMjlWaGZmeEhDaEx1VDhiZ0tNS3MxNzROZ0t0U3p1R2lzczdiY0VyTkI2a0JKZEwwdlVZMGxveXBjYmFLK1FlUDJsaDkvSG5lMEFZS1cxSTQwS0pZSTFYSERwRlFHcVZjOWVwVlVkTFhSZ2hPdVJ5SGFBZHlxdGJKbFA=
+    vuforiaLicenseKey: AYVYH5P/////AAAAGUcSMnnFnkTemqYmeFPnUE9QCK133KooLc0kurnyRrrpiN3NBZqkpguguoq9T42xn7bforwEQG45wUF7cDPWVbneumli2h7mPWRWLh6SIPj4JPYlrnvB7dA7Fi4b5d/4VY6xN4IZyt+hkRpFGcw7NpC5FbDnXNpnCe9zKc9EATjNjEWrv0av7HD7d478DxhgukBEmljqBVGdlrc88MAO453CjcN1bmtaUP07UO37pbvC++BcIH+p8s9mMkbR+ERHXASgBOIPGuOd1U8JjH8aLSg5b7cxFyoM4f7/HQKlj3T5u+0pbXj0smGn5TEq5O3lzJlSkZ2ywWsVgd5Ywl5LO+t8N++vtJEwKDAijAr/pJJb
+    ufoLicenseKey: QWRtSHVudi8vLy8vQUFBQUtHWkM3Zi9WREVOSHI1UTIyOFhhak1ORUJIMTN2MWpzdmh3ZVdpUlBWUDFyUGN3YVNremtheW11V2JXemUxQllNRVY4V3o4WkY2UThsYnAvdUpPNlEzUGR5WWhKNjBqc3p0aVEvbFFoOXNJLzFpLytmZjJxWllPejl6V1Z3WW93ZThjR01SVGFqQi9Ma0NTTlhINVcxeXJaRkhkZitZYUp2Wlo3bThtL1FJVEdvaVdUVW5ISkRQY09qYndIWlQvRStqbUh6R3hxbzh5Ly96VXJMM21QTzIzaGJBMmt4dEtaTExSRjROUEZ2TlVselM5emd2T3VaVHJLR2k0cFZlLzIyUmFNajk2NVhjNkpVOXRmT1crNVd4OVlDY3pmUFpRQ2tQWS9QNCtrY0EyVGZWKzllcU1kaElOazNVdGFzKzN1SkhBQVFXZjJJTW5Rbklwb2p6QkppOE5aK0tnTWJFQ1VBR21PMWVJWmdINDY=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
-    useDelayedLoadingObjectTargets: 0
+    useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
   digitalEyewear:
@@ -43,8 +43,14 @@ MonoBehaviour:
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
   databaseLoad:
-    dataSetsToLoad: []
-    dataSetsToActivate: []
+    dataSetsToLoad:
+    - VuforiaMars_Images
+    - VuforiaMars_Object_OT
+    - VuforiaMars_VuMark
+    dataSetsToActivate:
+    - VuforiaMars_Images
+    - VuforiaMars_Object_OT
+    - VuforiaMars_VuMark
   videoBackground:
     clippingMode: 0
     numDivisions: 2
