@@ -16,8 +16,8 @@ MonoBehaviour:
     ufoLicenseKey: QWRhOG1MLy8vLy8vQUFBQUtHUnBsc3BYa0VWS3JtcEgwOEh6ZzdvUUVqV2xHdTErbFNMSXI1TVpPRm9yRXo3MURNaytZOTY0alhrSDhZRDNmMkRqZjdLQ2pDbnViS1NJcHF5R3J5bFlNMGNxSDk1RUxqd3dHR1BoNVVpcG1xU1FVUGx3cVZ5a1haYjN1dzhSVVUwK2hMN1M3QXEyZTdRN1RjVndEaGtmdlp0WGx1ME4wTG1wZndmOEJXeEU0cXIrZStMdVZ3WkZSZmJTTmE0OTVZcGNDRXVVZ2NmaThjUDM5dzBTNEhTdDRyQ3E3WWd3ZndHMHB0bjlEckdFU2JhUW5aMjlWaGZmeEhDaEx1VDhiZ0tNS3MxNzROZ0t0U3p1R2lzczdiY0VyTkI2a0JKZEwwdlVZMGxveXBjYmFLK1FlUDJsaDkvSG5lMEFZS1cxSTQwS0pZSTFYSERwRlFHcVZjOWVwVlVkTFhSZ2hPdVJ5SGFBZHlxdGJKbFA=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 3
+    maxSimultaneousObjectTargets: 3
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
@@ -44,9 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - Recompensa2D
+    - JamboreBanner
     dataSetsToActivate:
-    - Recompensa2D
+    - JamboreBanner
   videoBackground:
     clippingMode: 0
     numDivisions: 2
