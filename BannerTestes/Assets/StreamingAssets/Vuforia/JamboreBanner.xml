@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="software" size="20.000000 7.916967" />
+    <ImageTarget name="silver" size="20.000000 20.000000" />
+    <ImageTarget name="integrated" size="20.000000 20.000000" />
+    <ImageTarget name="EDUCATIONANDPUBLICENGAGEMENT" size="20.000000 20.000000" />
+    <ImageTarget name="proofverde" size="20.000000 24.120073" />
     <ImageTarget name="cas9-1" size="20.000000 16.256807" />
     <ImageTarget name="Crispeasy" size="20.000000 20.111542" />
     <ImageTarget name="POSTERiGEM2017Logo" size="20.000000 6.828240" />

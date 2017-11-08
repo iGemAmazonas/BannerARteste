@@ -44,9 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - JamboreBanner
+    - Recompensa2D
     dataSetsToActivate:
-    - JamboreBanner
+    - Recompensa2D
   videoBackground:
     clippingMode: 0
     numDivisions: 2
